@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'blackops';
+    src: url(../fonts/BlackOpsOne-Regular.ttf);
+}
+
+.titulo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 5%;
+}
+
+/* Flickering animation */
+@keyframes flicker {
+    
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #38B6FF,
+        0 0 80px #38B6FF,
+        0 0 90px #38B6FF,
+        0 0 100px #38B6FF,
+        0 0 150px #38B6FF;
+    
+    }
+    
+    20%, 24%, 53% {        
+        text-shadow: none;
+    }    
+  }
+
+.neonText {
+  margin-top: 5px;
+  text-decoration: #2988c0 underline;
+    animation: flicker 1.5s infinite alternate;
+    color: #fff;
+  }
+
+.cupones_container{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.img_cupon{
+  width: 200px;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.cupon_container{
+  margin-top: 40px;
+  display: flex;
+  width: 580px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cupon{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  backdrop-filter: blur(10px);
+}
+
+.info_cupon{
+  padding-left: 10px;
+  padding-rigth: 15px;
+  flex:1;
+  border-radius: 0px 16px 16px 0;
+  border-top: 2px solid #38B6FF;
+  border-right: 2px solid #38B6FF;
+  border-bottom: 2px solid #38B6FF;
+  backdrop-filter: blur(10px);
+}
+
+.titul_oferta{
+  width: 100%;
+  text-align: center;
+}
+
+.precios_cupon{
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 2px;
+}
+
+.comprar_button{
+  width: 200px;
+  justify-content: center;
+  margin-top: 15px;
+}

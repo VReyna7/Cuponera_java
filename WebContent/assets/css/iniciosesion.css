@@ -1,0 +1,39 @@
+.main_article{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+    color: white;
+    font-weight: bold;
+}
+
+.left_container{
+    width: 400px;
+    height: 500px;
+    background-image: url('../img/4938059.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.right_container{
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    background-color: transparent;
+    border: 3px solid #38B6FF;
+    border-left: none;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+
+.iniciosesion_titulo{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    flex: 1;
+}

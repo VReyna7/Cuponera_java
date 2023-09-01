@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Arapey';
+    src: url(../fonts/Arapey-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Open_Sans';
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+.cuponera_title{
+    font-family: Arapey, serif;
+    font-size: 35px;
+}
+
+.inicio_sesion_button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin-right: 20px;
+    padding: 9px;
+    border-radius: 16px;
+    font-family:  Open_Sans;
+}
+
+.inicio_sesion_button:hover{
+    transform: scale(1.09);
+    border: 1px solid white;
+    transition: 1s;
+}
+
+.registrarse_button{
+    background-color: transparent;
+    color: #38B6FF;
+    border: 2px solid #38B6FF;
+    padding: 10px;
+    border-radius: 16px;
+}
+
+.registrarse_button:hover{
+    background-color: #38B6FF;
+    color: white;
+    transform: scale(1.04);
+    transition: 0.6s;
+}
